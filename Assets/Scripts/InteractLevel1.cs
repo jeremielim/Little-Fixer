@@ -29,6 +29,7 @@ public class InteractLevel1 : Interact
                 {
                     eyeAnimator.SetBool("isActive", true);
                     mouthAnimator.SetBool("isActive", true);
+                    mouth.GetComponent<BoxCollider2D>().enabled = false;
                     thorn.SetActive(true);
                 }
             }
