@@ -13,9 +13,11 @@ public class InteractLevel3 : Interact
 
     private Animator cryBabyEyeAnimator;
     private Animator cryBabyMouthAnimator;
+    private bool hasEaten;
 
     void Start()
     {
+        hasEaten = false;
         cryBabyEyeAnimator = cryBabyEye.GetComponent<Animator>();
         cryBabyMouthAnimator = cryBabyMouth.GetComponent<Animator>();
     }
@@ -24,6 +26,11 @@ public class InteractLevel3 : Interact
     {
         if (mango != null)
         {
+            if (mango.transform.position.y <= -5.92f)
+            {
+                SceneManager.LoadScene("Game03");
+            }
+
             if (mango.transform.position.y < -1.961f && mango.transform.position.x > 1.53f)
             {
                 Destroy(mango);
