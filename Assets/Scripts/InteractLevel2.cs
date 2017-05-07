@@ -11,6 +11,9 @@ public class InteractLevel2 : Interact
     public GameObject headPhones;
     public float birdWalkingSpeed;
 
+    public Text dialog;
+    public GameObject nextButton;
+
     private Transform targetPos;
     private Animator birdWalkingAnimator;
     private Animator birdShoutingAnimator;
@@ -36,6 +39,9 @@ public class InteractLevel2 : Interact
             {
                 birdWalkingAnimator.SetTrigger("isListening");
                 birdShoutingAnimator.SetTrigger("isResting");
+
+                dialog.text = "Yey!";
+                nextButton.SetActive(true);
             }
         }
 

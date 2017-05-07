@@ -8,6 +8,7 @@ public class InteractLevel1 : Interact
     public GameObject eyes;
     public GameObject mouth;
     public Text dialog;
+    public GameObject nextButton;
 
     private Animator eyeAnimator;
     private Animator mouthAnimator;
@@ -40,6 +41,7 @@ public class InteractLevel1 : Interact
             eyeAnimator.SetBool("isHappy", true);
             mouthAnimator.SetBool("isHappy", true);
             dialog.text = "Yey!";
+            nextButton.SetActive(true);
         }
     }
 }
