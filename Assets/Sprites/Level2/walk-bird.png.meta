@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2a18845f2d73c4047ba3c9a0c1dfb868
-timeCreated: 1494128583
+timeCreated: 1494138114
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: walk-bird_1
     21300004: walk-bird_2
     21300006: walk-bird_3
+    21300008: walk-bird_4
+    21300010: walk-bird_5
+    21300012: walk-bird_6
+    21300014: walk-bird_7
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -94,7 +98,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2580
+        y: 6020
         width: 600
         height: 860
       alignment: 0
@@ -107,7 +111,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1720
+        y: 5160
         width: 600
         height: 860
       alignment: 0
@@ -120,7 +124,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 860
+        y: 4300
         width: 600
         height: 860
       alignment: 0
@@ -130,6 +134,58 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: walk-bird_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3440
+        width: 600
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk-bird_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2580
+        width: 600
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk-bird_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 600
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk-bird_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 600
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk-bird_7
       rect:
         serializedVersion: 2
         x: 0

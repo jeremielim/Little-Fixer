@@ -14,4 +14,8 @@ public class Draggable : MonoBehaviour
     {
         transform.position = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 1.0f));
     }
+    void OnMouseUp()
+    {
+        transform.gameObject.AddComponent<Rigidbody2D>();
+    }
 }

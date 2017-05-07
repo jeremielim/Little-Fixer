@@ -30,14 +30,6 @@ public class InteractLevel1 : Interact
                     mouthAnimator.SetBool("isActive", true);
                     thorn.SetActive(true);
                 }
-
-                if (Cast().transform.name == "Thorn")
-                {
-                    if (Cast().transform.gameObject.GetComponent<Rigidbody2D>() == null)
-                    {
-                        Cast().transform.gameObject.AddComponent<Rigidbody2D>();
-                    }
-                }
             }
         }
 
