@@ -5,7 +5,6 @@ public class Draggable : MonoBehaviour
     private float x;
     private float y;
 
-    // Update is called once per frame
     void Update()
     {
         x = Input.mousePosition.x;

@@ -2,23 +2,6 @@
 
 public class Interact : MonoBehaviour
 {
-    void Update()
-    {
-        if (Input.GetButton("Fire1"))
-        {
-            if (Cast().transform != null)
-            {
-                if (Cast().transform.name == "Thorn")
-                {
-                    if (Cast().transform.gameObject.GetComponent<Rigidbody2D>() == null)
-                    {
-                        Cast().transform.gameObject.AddComponent<Rigidbody2D>();
-                    }
-                }
-            }
-        }
-    }
-
     public RaycastHit2D Cast()
     {
         Vector2 origin = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
