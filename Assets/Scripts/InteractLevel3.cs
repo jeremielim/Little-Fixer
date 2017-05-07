@@ -37,7 +37,7 @@ public class InteractLevel3 : Interact
                 cryBabyEyeAnimator.SetTrigger("isHappy");
                 cryBabyMouthAnimator.SetTrigger("isHappy");
 
-                dialog.text = "Yey!";
+                dialog.text = "YAY";
                 nextButton.SetActive(true);
             }
         }

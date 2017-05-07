@@ -41,7 +41,7 @@ public class InteractLevel1 : Interact
             mouthAnimator.SetBool("isActive", true);
             eyeAnimator.SetBool("isHappy", true);
             mouthAnimator.SetBool("isHappy", true);
-            dialog.text = "Yey!";
+            dialog.text = "YAY";
             nextButton.SetActive(true);
         }
     }

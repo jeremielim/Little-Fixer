@@ -40,7 +40,7 @@ public class InteractLevel2 : Interact
                 birdWalkingAnimator.SetTrigger("isListening");
                 birdShoutingAnimator.SetTrigger("isResting");
 
-                dialog.text = "Yey!";
+                dialog.text = "YAY";
                 nextButton.SetActive(true);
             }
         }
