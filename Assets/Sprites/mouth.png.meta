@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: 338ce650bba774cd69ab1bb567cc967f
-timeCreated: 1494101781
+timeCreated: 1494124087
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: mouth_0
     21300002: mouth_1
     21300004: mouth_2
+    21300006: mouth_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -93,7 +94,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 324
+        y: 486
         width: 350
         height: 162
       alignment: 0
@@ -106,7 +107,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 162
+        y: 324
         width: 350
         height: 162
       alignment: 0
@@ -116,6 +117,19 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: mouth_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 350
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mouth_3
       rect:
         serializedVersion: 2
         x: 0

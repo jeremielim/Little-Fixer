@@ -5,6 +5,8 @@ public class InteractLevel1 : Interact
 {
     public GameObject monster;
     public GameObject thorn;
+    public GameObject eyes;
+    public GameObject mouth;
     public Text dialog;
 
     private Animator eyeAnimator;
@@ -12,8 +14,8 @@ public class InteractLevel1 : Interact
 
     void Start()
     {
-        eyeAnimator = monster.transform.FindChild("Eyes").GetComponent<Animator>();
-        mouthAnimator = monster.transform.FindChild("Mouth").GetComponent<Animator>();
+        eyeAnimator = eyes.GetComponent<Animator>();
+        mouthAnimator = mouth.GetComponent<Animator>();
     }
 
     void Update()
@@ -39,7 +41,7 @@ public class InteractLevel1 : Interact
             }
         }
 
-        if (thorn == null|| Mathf.Abs(thorn.transform.position.x) > 3)
+        if (thorn == null || Mathf.Abs(thorn.transform.position.x) > 3)
         {
             eyeAnimator.SetBool("isActive", true);
             mouthAnimator.SetBool("isActive", true);
